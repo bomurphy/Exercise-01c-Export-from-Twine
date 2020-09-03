@@ -1,0 +1,113 @@
+{
+    "passages": [
+      {
+        "text": "You just woke up at camp. Get up and start your adventure!\n\n[[Go to the Saloon->Saloon]]\n[[Go to the Horse Ranch->Ranch]]\n[[Go to the Gun Shop->Gun Shop]]",
+        "links": [
+          {
+            "name": "Go to the Saloon",
+            "link": "Saloon",
+            "pid": "2"
+          },
+          {
+            "name": "Go to the Horse Ranch",
+            "link": "Ranch",
+            "pid": "3"
+          },
+          {
+            "name": "Go to the Gun Shop",
+            "link": "Gun Shop",
+            "pid": "4"
+          }
+        ],
+        "name": "Base Camp",
+        "pid": "1",
+        "position": {
+          "x": "412",
+          "y": "189"
+        }
+      },
+      {
+        "text": "You are at the Saloon!\n\n[[Go back to Camp->Base Camp]]\n[[Go to the Horse Ranch->Ranch]]\n[[Go to the Gun Shop->Gun Shop]]",
+        "links": [
+          {
+            "name": "Go back to Camp",
+            "link": "Base Camp",
+            "pid": "1"
+          },
+          {
+            "name": "Go to the Horse Ranch",
+            "link": "Ranch",
+            "pid": "3"
+          },
+          {
+            "name": "Go to the Gun Shop",
+            "link": "Gun Shop",
+            "pid": "4"
+          }
+        ],
+        "name": "Saloon",
+        "pid": "2",
+        "position": {
+          "x": "262",
+          "y": "339"
+        }
+      },
+      {
+        "text": "You are at the Horse Ranch!\n\n[[Go back to Camp->Base Camp]]\n[[Go to the Saloon->Saloon]] \n[[Go to the Gun Shop->Gun Shop]] ",
+        "links": [
+          {
+            "name": "Go back to Camp",
+            "link": "Base Camp",
+            "pid": "1"
+          },
+          {
+            "name": "Go to the Saloon",
+            "link": "Saloon",
+            "pid": "2"
+          },
+          {
+            "name": "Go to the Gun Shop",
+            "link": "Gun Shop",
+            "pid": "4"
+          }
+        ],
+        "name": "Ranch",
+        "pid": "3",
+        "position": {
+          "x": "412",
+          "y": "339"
+        }
+      },
+      {
+        "text": "You are at the Gun Shop!\n\n[[Go back to Camp->Base Camp]] \n[[Go to the Saloon->Saloon]] \n[[Go to the Horse Ranch->Ranch]] ",
+        "links": [
+          {
+            "name": "Go back to Camp",
+            "link": "Base Camp",
+            "pid": "1"
+          },
+          {
+            "name": "Go to the Saloon",
+            "link": "Saloon",
+            "pid": "2"
+          },
+          {
+            "name": "Go to the Horse Ranch",
+            "link": "Ranch",
+            "pid": "3"
+          }
+        ],
+        "name": "Gun Shop",
+        "pid": "4",
+        "position": {
+          "x": "562",
+          "y": "339"
+        }
+      }
+    ],
+    "name": "Western Adventure",
+    "startnode": "1",
+    "creator": "Twine",
+    "creator-version": "2.3.9",
+    "ifid": "75623E51-3AA8-43E3-A7C9-D18CECE74146"
+  }
